@@ -24,7 +24,7 @@ yarn global add prisma
 
 Also, run the following commands:
 ```sh
-cd react-apollo/server
+cd hackernews-react-apollo/server
 yarn install
 prisma deploy
 ```
@@ -86,7 +86,7 @@ yarn start
 
 ### 4. Run the app
 
-Now that the server is running, you can start the React app as well. The commands need to be run in a new terminal tab/window inside the root directory `react-apollo` (because the current tab is blocked by the process running the server):
+Now that the server is running, you can start the React app as well. The commands need to be run in a new terminal tab/window inside the root directory `hackernews-react-apollo` (because the current tab is blocked by the process running the server):
 
 ```sh
 yarn install
